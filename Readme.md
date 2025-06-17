@@ -55,20 +55,3 @@ Timestamp              | MAC                  | Name           | Event
 2025-06-17 14:04:10    | 40:48:6E:56:61:F8    | NOKIA-F8       | Name Change Detected
 ```
 
----
-
-## 📌 Notes
-- Ensure no other BLE scanner (like `bluetoothctl scan on`) is running.
-- If `bluepy` fails to install, verify `libbluetooth-dev` and `libglib2.0-dev` are installed.
-- For custom alerts (e.g., push notifications), you can expand the logging logic.
-
----
-
-## 📚 References
-- [BlueZ Official Docs](http://www.bluez.org/)
-- [bluepy GitHub](https://github.com/IanHarvey/bluepy)
-- [Kali Linux ARM Setup](https://www.kali.org/get-kali/#kali-arm)
-
----
-
-**Author:** 🐉 Kali GPT | Project Contributor: [Your Name]
